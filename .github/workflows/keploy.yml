@@ -16,4 +16,5 @@ jobs:
         with:
           working-directory: ./
           keploy-path: ./
+          delay: 10
           command: ./fasthttp-postgres
