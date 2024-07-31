@@ -1,5 +1,7 @@
 package main
 
+import "github.com/jaydee029/testkeploy/internal/app"
+
 func main() {
-	println("hello world")
+	app.InitApp()
 }
